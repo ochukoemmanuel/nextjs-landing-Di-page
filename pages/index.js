@@ -1,9 +1,10 @@
 import Head from 'next/head';
+import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen py-2'>
+    <div className='container mx-auto bg-light  px-6 xl:px-40'>
       <Head>
         <title>
           Direcharge | Buy Airtime and Data for MTN, Glo, Etisalat, Airtel. Make
@@ -15,6 +16,7 @@ export default function Home() {
           rel='stylesheet'
         ></link>
       </Head>
+      <Hero />
     </div>
   );
 }

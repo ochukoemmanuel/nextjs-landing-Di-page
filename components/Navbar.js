@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navbar = ({ toggle }) => {
   return (
     <div className=' bg-light'>
-      <div className='container h-18 flex justify-between items-center mx-auto px-20'>
+      <div className='container mx-auto h-18 flex justify-between items-center  px-6 xl:px-40'>
         <div className='w-14 h-7'>
           <Link href='/'>
             <img
